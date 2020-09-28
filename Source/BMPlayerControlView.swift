@@ -712,7 +712,7 @@ open class BMPlayerControlView: UIView {
     
         fullscreenButton.snp.makeConstraints { [unowned self](make) in
             make.width.equalTo(50)
-            make.height.equalTo(50)
+            make.height.equalTo(0)
             make.centerY.equalTo(self.currentTimeLabel)
             make.left.equalTo(self.totalTimeLabel.snp.right)
             make.right.equalToSuperview()
